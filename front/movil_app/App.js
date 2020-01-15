@@ -76,6 +76,9 @@ class Home extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    flexBasis:0,
+    flexGrow:1,
+    flexShrink:1,
     flexDirection: "column",
     padding: 16, 
     paddingTop: 30, 
